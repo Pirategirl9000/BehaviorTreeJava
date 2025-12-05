@@ -3,6 +3,7 @@ package BehaviorTree;
 /**
  * Defines a condition for a ConditionalNode
  */
+@FunctionalInterface
 public interface Condition {
     /**
      * The condition to be evaluated
